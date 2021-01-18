@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(224, 240, 202);
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  box-shadow: 5px 10px;
+  margin: 10px;
+  border: 3px solid antiquewhite;
+}
+
+.card h2 {
+  text-align: center;
+  background-color: rgba(222, 184, 135, 0.171);
+  color: black;
+  border: 1px solid lightblue;
+}
+
+.card img {
+  align-items: center;
+  height:250px;
+  width: 250px;
+}
+
+p {
+  font-weight: bold;
+  font-family: -apple-system
+}
+
+p.availability {
+  color: yellow;
+  background-color: rgb(65, 63, 63);
+  padding: 0px;
+  margin: 0px;
+}
